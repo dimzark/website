@@ -104,6 +104,8 @@ body {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
+
+
 <style>
 .d-flex {
     display: flex;
@@ -118,6 +120,18 @@ body {
 }
 </style>
 
+.icon-container {
+  display: flex;
+  justify-content: center; /* Centers the icons horizontally */
+  align-items: center; /* Centers the icons vertically */
+}
+
+a.text-gradient {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 8px; /* Adds horizontal space of 10px on both sides */
+}
 hr {
   margin: 1rem 0;
   color: inherit;
