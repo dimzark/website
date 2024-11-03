@@ -104,6 +104,20 @@ body {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
+<style>
+.d-flex {
+    display: flex;
+    flex-direction: row; /* Default: side-by-side layout for larger screens */
+    align-items: center;
+}
+
+@media (max-width: 768px) { /* Adjust the breakpoint as needed */
+    .d-flex {
+        flex-direction: column; /* Stacks elements vertically for smaller screens */
+    }
+}
+</style>
+
 hr {
   margin: 1rem 0;
   color: inherit;
