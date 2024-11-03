@@ -8189,8 +8189,8 @@ textarea.form-control-lg {
 }
 
 .text-secondary {
-  --bs-text-opacity: 1;
-  color: rgba(var(--bs-secondary-rgb), var(--bs-text-opacity)) !important;
+    --bs-text-opacity: 1;
+    color: rgb(107 193 167) !important;
 }
 
 .text-success {
